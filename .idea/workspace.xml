@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d2358bf-de9a-4d0e-ab96-e0dc7429dede" name="Changes" comment="Python Lab">
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_2.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonCourse/PA2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713198532426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Python Lab">
+      <option name="closed" value="true" />
+      <created>1724500891034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724500891034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Python Lab">
+      <option name="closed" value="true" />
+      <created>1724500940190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724500940190</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Python Lab">
+      <option name="closed" value="true" />
+      <created>1724501076277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724501076277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
