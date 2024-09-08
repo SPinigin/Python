@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="auth-container">
+        <form id="login-form" method="post">
+            <label for="login">Логин:</label>
+            <input type="text" id="login" name="login" required>
+            <br>
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Войти</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#login-form').submit(function(event) {
+                event.preventDefault();
+                var login = $('#login').val();
+                var password = $('#password').val();
+
+                $.ajax({
+                    url: '/login',
+                    type: 'POST',
+                    data: {login: login, password: password},
+                    success: function(response) {
+                        if (response.success) {
+                            $('#auth-container').html('<p>Добрый день, ' + response.fio + '! Вы успешно вошли в систему!</p>');
+                        } else {
+                            $('#message').html('<p>Неправильный логин или пароль!</p>');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

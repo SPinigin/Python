@@ -1,0 +1,20 @@
+[
+    {
+        "question_text": "What is the output of print(2 ** 3)?",
+        "options": ["6", "8", "9", "16"],
+        "correct_answer": "8",
+        "prize": 1000
+    },
+    {
+        "question_text": "Which of these is a mutable type?",
+        "options": ["tuple", "string", "list", "int"],
+        "correct_answer": "list",
+        "prize": 2000
+    },
+    {
+        "question_text": "Which method is used to get the length of a list?",
+        "options": ["length()", "len()", "size()", "count()"],
+        "correct_answer": "len()",
+        "prize": 5000
+    }
+]

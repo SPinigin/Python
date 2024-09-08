@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вызов замерщика на дом</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h2>Форма вызова замерщика на дом</h2>
+
+<form id="survey-form">
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" required><br><br>
+
+    <label for="phone">Номер телефона (формат: +79NN-NNN-NN-NN):</label><br>
+    <input type="text" id="phone" name="phone" required><br><br>
+
+    <input type="submit" value="Отправить">
+</form>
+
+<p id="response-message"></p>
+
+<script>
+    $(document).ready(function() {
+        $('#survey-form').on('submit', function(e) {
+            e.preventDefault();
+
+            // Получаем данные из формы
+            var email = $('#email').val();
+            var phone = $('#phone').val();
+
+            // Отправляем данные на сервер через AJAX
+            $.ajax({
+                url: '/submit',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    email: email,
+                    phone: phone
+                }),
+                success: function(response) {
+                    $('#response-message').text(response.message);
+                    if (response.status === 'error') {
+                        $('#response-message').css('color', 'red');
+                    } else {
+                        $('#response-message').css('color', 'green');
+                    }
+                },
+                error: function() {
+                    $('#response-message').text('Ошибка отправки данных');
+                    $('#response-message').css('color', 'red');
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
