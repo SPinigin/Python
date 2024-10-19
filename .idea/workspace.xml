@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2358bf-de9a-4d0e-ab96-e0dc7429dede" name="Changes" comment="Add DZ_2.7">
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_2_4/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_2_4/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_3_6/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_3_6/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_3_6/templates/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_3_7/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/DZ_3_7/operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/PA3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/WhoWantsToBeAMillionaire/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/WhoWantsToBeAMillionaire/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/WhoWantsToBeAMillionaire/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/WhoWantsToBeAMillionaire/questions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonCourse/WhoWantsToBeAMillionaire/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2d2358bf-de9a-4d0e-ab96-e0dc7429dede" name="Changes" comment="Add labs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725187358069</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add labs">
+      <option name="closed" value="true" />
+      <created>1725811406252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725811406252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +184,7 @@
     <MESSAGE value="Add PA2" />
     <MESSAGE value="Add DZ_2.5" />
     <MESSAGE value="Add DZ_2.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DZ_2.7" />
+    <MESSAGE value="Add labs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add labs" />
   </component>
 </project>
